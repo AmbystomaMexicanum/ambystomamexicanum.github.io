@@ -5,4 +5,4 @@ Personal website (experimental, not formal, at least currently) of *Ambystoma Me
 Index:
 
 - Programming
-	- [Markdown syntax conclusion](/programming/markdown) (in Chinese)
+	- [Markdown syntax conclusion](/programming/markdown) (in Chinese), completed on Aug. 2, 21
