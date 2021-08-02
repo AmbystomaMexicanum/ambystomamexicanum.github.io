@@ -6,3 +6,5 @@ Index:
 
 - Programming
 	- [Markdown syntax conclusion](/programming/markdown) (in Chinese), completed on Aug. 2, 21
+- Linguistics
+	- [X-SAMPA commonly-used symbols conclusion](/linguistics/xsampa) (in Chinese), completed on Aug. 2, 21
