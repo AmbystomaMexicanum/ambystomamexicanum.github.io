@@ -66,7 +66,7 @@ X-SAMPA的大写字母为与其对应的小写字母所对应音素在世界主�
 | `M`			| ɯ		| (uncommon, thus omitted) |
 | `N`			| ŋ		| `EN` *ki**ng*** |
 | `O`			| ɔ		| `EN` ***a**ll*	|
-| `P` (/`v\`)	| ʋ		| `FI` ***v**alo* |
+| `P` (`v\`)	| ʋ		| `FI` ***v**alo* |
 | `Q`			| ɒ		| `EN-uk` *l**o**t* |
 | `R`			| ʁ		| `FR` ***r**oi* (?) |
 | `S`			| ʃ		| `EN` ***sh**ip* |
