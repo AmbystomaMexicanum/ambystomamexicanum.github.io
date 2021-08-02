@@ -57,6 +57,7 @@ X-SAMPA的大写字母为与其对应的小写字母所对应音素在世界主�
 ### 其他符号
 
 | X-SAMPA		| IPA	| 英文名			| 作用（中文描述）	| 举例 |
+| --------- | --- | ---------- | ---------------- | ---- |
 | `.`			| .		| syllable break	| 标示音节分界	|	|
 | `"`			| '		| primary stress	| 第一重音		|	|
 | `%`			| ˌ		| secondary stress	| 第二重音		| `EN` *pro**nun**ciation* |
@@ -79,6 +80,7 @@ X-SAMPA的大写字母为与其对应的小写字母所对应音素在世界主�
 ### Diacritics
 
 | X-SAMPA		| IPA	| 英文名		| 作用（中文描述）	| 举例 |
+| --------- | --- | ---------- | ---------------- | ---- |
 | `_0`			| ̥ 	| voiceless		| (TODO)			| `EL-anc` _**Rh**odos_ |
 | `=` / `_=`	| ̩		| syllabic		| (TODO)			| `EN` _nat**ion**_ `["neISn=]` |
 | `_}`			| ̚		| no audible release | (TODO)		| `ZH-yue` _**-p**/**-t**/**-k**_ |
