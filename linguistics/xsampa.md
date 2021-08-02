@@ -80,12 +80,12 @@ X-SAMPA的大写字母为与其对应的小写字母所对应音素在世界主�
 
 | X-SAMPA		| IPA	| 英文名		| 作用（中文描述）	| 举例 |
 | `_0`			| ̥ 	| voiceless		| (TODO)			| `EL-anc` _**Rh**odos_ |
-| `=` / `_=`	| ̩		| syllabic		| (TODO)			| `EN` _nat**ion**_ `\["neISn=\]` |
+| `=` / `_=`	| ̩		| syllabic		| (TODO)			| `EN` _nat**ion**_ `["neISn=]` |
 | `_}`			| ̚		| no audible release | (TODO)		| `ZH-yue` _**-p**/**-t**/**-k**_ |
-| `~` / `_~`	| ̃		| nasalization	| 鼻化标记			| `FR` _**an**_ `\[A~\]` |
+| `~` / `_~`	| ̃		| nasalization	| 鼻化标记			| `FR` _**an**_ `[A~]` |
 | `_d`			| ̪		| dental		| (TODO)			| `ES` _**s**_ |
 | `_h`			| ʰ		| aspirated		| 送气标记			| (TODO)	|
 | `_j` (or `'`)	| ʲ		| palatalized | 颚化标记			| 见前文	|
-| `_o`			| ̞		| lowered		| (TODO)			| `FI` _J**e**l**e**na_ `\["je_ole_onA\]` |
+| `_o`			| ̞		| lowered		| (TODO)			| `FI` _J**e**l**e**na_ `["je_ole_onA]` |
 | `_r`			| ̝		| raised		| (TODO)			| (TODO) |
 | `_w`			| ʷ		| labialized	| (TODO)			| `EN` _**r**_ sound |
