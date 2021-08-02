@@ -2,8 +2,32 @@
 
 ## 说明
 
-1. 在本文中，IPA以通常的形式（如「a」），或以被/ /扩起的形式（如「/a/」）出现；X-SAMPA以代码形式出现（如「`a`」）。
-2. 本文总结的X-SAMPA与IPA对应关系仅限较为常见的对应关系，即主要语言（主「英·法·西·葡」，occasionally还包括「德·阿·北欧诸语·希·俄·etc.」）中出现的音素。
+### 技术性说明
+
+1. 在本文中，IPA以通常的形式（如：a），或以被/ /扩起的形式（如：/a/）出现；X-SAMPA以代码形式出现（如：`a`）。
+
+2. 本文总结的X-SAMPA与IPA对应关系仅限较为常见的对应关系，即主要语言（主「英、法、西、葡」，occasionally还包括「德、阿、北欧诸语、希、俄，etc.」）中出现的音素。
+
+3. 本文中进行举例时，使用基于ISO 639-1标准的语言代号指定语言。本文使用的语言代号如下：
+
+| 代号 | 语言 |
+| ---- | ---- |
+| `EN` | English |
+| `FR` | French |
+| `ES` | Spanish |
+| `PT` | Portuguese |
+| `DE` | German |
+| `AR` | Arabic |
+| `FI` | Finnish |
+| `RU` | Russian |
+| `ZH` | Chinese (Mandarin) |
+| `ZH-yue` | Chinese (Cantonese) |
+| `EL` | Greek (contemporary) |
+| `EL-anc` | Ancient Greek |
+
+### 非技术性说明
+
+4. 就像我在此网站上发表的其他文章一样，本文并非以教学为目的，只是给我自己看的，故不保证内容的正确性。
 
 ## X-SAMPA与IPA对应关系表（常见）
 
@@ -61,7 +85,7 @@ X-SAMPA的大写字母为与其对应的小写字母所对应音素在世界主�
 | `.`			| .		| syllable break	| 标示音节分界	|	|
 | `"`			| '		| primary stress	| 第一重音		|	|
 | `%`			| ˌ		| secondary stress	| 第二重音		| `EN` *pro**nun**ciation* |
-| `'` (or `_j`)	| ʲ		| palatalized		| 颚化标记		| `RU` *z**j**emlja* |
+| `'` (`_j`)	| ʲ		| palatalized		| 颚化标记		| `RU` *z**j**emlja* |
 | `:`			| ː		| long				| 长音标记		|	|
 | `@`			| ə		| -					| -				| `EN` ***a** boy* |
 | `{`			| æ		| -					| -				| `EN` *tr**a**p* |
