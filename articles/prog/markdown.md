@@ -7,14 +7,16 @@
 ### 技术说明
 
 1. 本文中的所有英文术语，如果可以，均使用复数形式。
-2. 本文中的Markdown代码中的使用`{ }`扩起的成分大多属于可以任意填入的内容（“参数”），其中被扩起的文字属于对可任意填入的内容的描述性名称（“参数名称”）。用于**通用格式**的讲解中。
-3. 本文中的Markdown代码中的`...`表示有规律的省略，用于**通用格式**的讲解中。
-4. 本文中的Markdown代码中的`{sp}`表示空格（因为空格不可见）。
-5. 本文中的Markdown代码中的`{ }`若包含几个用空格分隔的成分，表示该处应当出现列举的几个成分之一。
+2. 本文中的Markdown代码中的使用`{ }`扩起的成分大多属于可以任意填入的内容（“参数”），其中被扩起的文字属于对可任意填入的内容的描述性名称（“参数名称”），如`{quote}`、`{text}`。用于**通用格式**的讲解中。
+3. 本文中的Markdown代码中的`...`表示与其之前和之后相同的字符的省略，用于**通用格式**的讲解中。
+4. 本文中的Markdown代码中的`{sp}`表示空格（因为空格不可见，故需要用这种方式明确地指出空格的存在）。
+5. 本文中的Markdown代码中的`{ }`若包含几个用空格分隔的成分，表示该处应当出现列举的几个成分之一，且这些成分均为**字面值**而非（前文中所说的）**描述性名称**。如`{- * +}`即表示该处应当出现`-`、`*`或`+`之一。
+6. 本文中，如果多个相同字符叠加在一起很难辨认具体的字符数量，该字符将只写一次（以inline代码块的形式），并在其前面加上一个数字以表示该字符重复的次数。如3个`_`字符连写将写为「3`_`」（而非「`___`」）。
 
 ### 非技术说明
 
 i. 本文的写作意图并非给公众看的教程，而只是笔者写给自己的Markdown知识点归纳。故**可能存在错误**，且**笔者对这些错误不负责**。读者阅读时**请保持谨慎**，本文**仅供参考**。
+
 ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-syntax/)，少数整理自[Markdown扩展语法](https://markdown.com.cn/extended-syntax/)。
 
 ## I. 标题（headings）
@@ -47,26 +49,28 @@ ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-sy
 
 ⚠ **`#...#`和`{heading}`之间最好留有空格（通常为1个）。**
 
-### 1a. 标题 \[alternative\]
+### 1a. 标题（另一种表示法）
 
 使用任意数量的`=`或`-`，来分别表示一级、二级标题。它们分别相当于1、2个`#`。
 
 #### 通用格式
 
 ```
-{heading_lev_1}
+{heading_lvl_1}
 =...=
+```
 
-{heading_lev_2}
+```
+{heading_lvl_2}
 -...-
 ```
 
 #### 效果
 
-> {heading_lev_1}
+> `{heading_lvl_1}`
 > ==
 
-> {heading_lev_2}
+> `{heading_lvl_2}`
 > --
 
 ## II. 段落（paragraphs）
@@ -111,6 +115,8 @@ ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-sy
 > `{line 1}`  
 > `{line 2}`
 
+ℹ **换行和分段是有区别的：被分开的两段文字之间的行距不同，且行距：换行 > 分段。**
+
 ## IV. 强调（emphasis）
 
 ### 5~7. 粗体（bold）、斜体（italic）和粗斜体
@@ -119,32 +125,41 @@ ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-sy
 
 #### 通用格式
 
-```
-*{text_italic}*
-_{text_italic}_
-**{text_bold}**
-__{text_bold}__
-***{text_italic_bold}***
-___{text_italic_bold}___
-```
+`*{text_italic}*`
+
+`_{text_italic}_`
+
+`**{text_bold}**`
+
+`__{text_bold}__`
+
+`***{text_italic_bold}***`
+
+`___{text_italic_bold}___`
 
 #### 效果
 
 > *{text_italic}*
+> 
 > _{text_italic}_
+> 
 > **{text_bold}**
+> 
 > __{text_bold}__
+> 
 > ***{text_italic_bold}***
+> 
 > ___{text_italic_bold}___
 
-
-⚠ **开始处的`*`后面不要有空格。下划线表示法可能会比较tricky，不熟练者建议回避使用。晚点再来整理\[TODO\]。**
+⚠ **开始处的`*`后面不要有空格。下划线表示法可能会比较tricky，不熟练者建议回避使用。晚点再来整理\[TODO]。**
 
 ⚠ **下划线疑似只能使用HTML代码来表达：`<u>{text_underlined}</u>`。**
 
 ## V. 块引用（blockquotes）
 
-### 8. 块引用（以下简称为“引用”）
+### 8. 块引用
+
+_注：“块引用”以下简称为**引用**。_
 
 在行首使用`>`来创建引用。
 
@@ -184,21 +199,21 @@ ___{text_italic_bold}___
 
 ```
 Martin Luther King said,
-> Washington said firmly,
+> Washington stated,
 >> All men are born equal.
 ```
 
 #### 效果
 
 > Martin Luther King said,
->> Washington once said,
+>> Washington stated,
 >>> All men are born equal.
 
 ℹ **引用可以带有其他Markdown元素，如强调和列表等。**
 
 ## VI. 列表（lists）
 
-### 9. 有序列表（ordered lists？）
+### 9. 有序列表（ordered lists）
 
 在想要纳入列表的每一行开始处加上一个数字和、一个`.`和1个Space，即可创建一个列表。
 
@@ -230,6 +245,8 @@ Martin Luther King said,
 
 #### 效果
 
+❌ 序号连续。TODO。
+
 1. Ready
 2. Set
 3. Go
@@ -245,9 +262,9 @@ Martin Luther King said,
 
 ⚠ **Markdown列表序号逻辑：同一个列表，第一个条目的序号按指定序号显示，之后的条目序号由第一个序号顺延（递增）。因此第二个条目及其之后条目，指定什么序号无关紧要。**
 
-ℹ **使用列表时，不同条目之间将处于不同行，效果相当于换行。但不需要在每一行末尾加至少2 Spaces。
+ℹ **使用列表时，不同条目之间将处于不同行，效果相当于换行。不需要在每一行末尾加至少2 Spaces。**
 
-### 10. 无序列表（unordered list？）
+### 10. 无序列表（unordered lists）
 
 与有序列表相似，但更简单，将`{num}.`更换为`-`、`*`或`+`即可。
 
@@ -267,7 +284,7 @@ Martin Luther King said,
 > ...
 > - {item_n}
 
-⚠ **同一个列表，尽量使用同一个`{delim}`贯穿始终。**
+⚠ **同一个列表，尽量使用`-`、`*`或`+`中的同一个字符贯穿始终，而不要混合使用多种。**
 
 ### 11. 列表连续性保持：在列表中途插入其他内容
 
@@ -278,7 +295,9 @@ Martin Luther King said,
 ```
 - item 1
 - item 2
+
 	a paragraph
+
 - item 3
 ```
 
@@ -286,12 +305,16 @@ Martin Luther King said,
 
 - item 1
 - item 2
+
 	a paragraph
+
 - item 3
 
 ℹ **这里所说的“其他内容”种类可以很广泛，如段落、引用、代码块等，甚至另一个列表（且不限有序/无序）。**
 
 ⚠ **如果要插入代码块，则需要8 Spaces / 2 Tabs的缩进，因为代码块本身具有4 Spaces / 1 Tab的固有缩进。**
+
+⚠ **空行不会破坏列表的连续性，即有序列表的序号不受影响。**
 
 ## VII. 代码（code）
 
@@ -310,6 +333,8 @@ Inline代码使用一对`` ` ``扩起。不过如果代码中要使用到`` ` ``
 代码块指若干（≥1）整行的代码。对于要当作代码块处理的文字，请在行首保证4 Spaces / 1 Tab的缩进。
 
 #### 通用格式
+
+❌
 
 ```
 {4s/1t}{code_line_1}
@@ -332,6 +357,8 @@ Inline代码使用一对`` ` ``扩起。不过如果代码中要使用到`` ` ``
 嫌4S/1T的缩进太麻烦，可以使用**围栏式代码块**——使用一对` ``` `将代码行扩起。
 
 #### 通用格式
+
+❌
 
 ```
 \`\`\`
@@ -357,6 +384,8 @@ Inline代码使用一对`` ` ``扩起。不过如果代码中要使用到`` ` ``
 
 #### 通用格式
 
+❌
+
 ```
 \`\`\`{lang_code}
 ...
@@ -364,6 +393,8 @@ Inline代码使用一对`` ` ``扩起。不过如果代码中要使用到`` ` ``
 ```
 
 #### 演示
+
+❌
 
 ```
 \`\`\`c++
@@ -433,7 +464,7 @@ You are currently browsing <https://ambystomamexicanum.github.io/>.
 
 You are currently browsing <https://ambystomamexicanum.github.io/>.
 
-ℹ **`< >`其实可能并不是必要的——即使没有它，文本如果具有链接的格式，很可能也会被显示为超链接。**
+ℹ **`< >`其实常常也不是必要的——即使没有它，文本如果具有链接的格式，常常也会被显示为超链接。**
 
 ℹ **链接可以带格式，如`{hypertext}`可以是代码形式。**
 
