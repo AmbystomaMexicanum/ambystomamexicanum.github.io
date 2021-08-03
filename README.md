@@ -4,9 +4,8 @@ Personal website (experimental, not formal, at least currently) of *Ambystoma Me
 
 Index:
 
-- Programming
-	- [Markdown syntax conclusion](/articles/prog/markdown) (in Chinese)
-		- completed on Aug 2, 21
-- Linguistics
-	- [X-SAMPA commonly-used symbols conclusion](/articles/ling/xsampa) (in Chinese)
-		- completed on Aug 2, 21
+- Articles (`/articles/`)
+	- Programming (`/articles/prog/`)
+		- [Markdown syntax conclusion](/articles/prog/markdown) (in Chinese; Aug 2, 21)
+	- Linguistics (`/articles/ling/`)
+		- [X-SAMPA commonly-used symbols conclusion](/articles/ling/xsampa) (in Chinese; Aug 2, 21)
