@@ -1096,15 +1096,13 @@ Markdown语言支持在其内部（即`.md`文件内部）直接使用HTML代码
 
 ## XVIII. 扩展功能：Emoji的使用
 
-### 28. Emoji使用
-
 <br />
 
 欲在Markdown中输入emoji，可直接输入实际的emoji字符，也可以使用**表情符号简码**（emoji shortcodes）进行输入。
 
 <br />
 
-### 29. 表情符号简码（emoji shortcodes）
+### 28. 表情符号简码（emoji shortcodes）
 
 表情符号简码的形式为`:{shortcode}:`。如`:tent:`即表示:tent:，`:joy:`即表示:joy:。
 
