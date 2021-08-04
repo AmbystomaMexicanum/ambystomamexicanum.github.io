@@ -9,6 +9,6 @@ Index:
 - [Articles](/articles/ "/articles/")
 	- [Programming](/articles/prog/ "/articles/prog/")
 		- [Markdown syntax conclusion](/articles/prog/markdown "/articles/prog/markdown") (`zh-CN`, Aug 2, 21)
-		- [Markdown nesting feasibility table](/articles/prog/markdown-nesting-feasibility-table) (`zh-CN`, Aug. 3, 21)
+		- [Markdown nesting feasibility table](/articles/prog/markdown-nesting-table) (`zh-CN`, Aug. 3, 21)
 	- [Linguistics](/articles/ling/ "/articles/ling/")
 		- [X-SAMPA commonly-used symbols conclusion](/articles/ling/xsampa "/articles/ling/xsampa") (`zh-CN`, Aug 2, 21)
