@@ -454,6 +454,8 @@ I prefer [Bing](https://bing.com/ "premium search engine") to [Baidu](https://ba
 
 I prefer [Bing](https://bing.com/ "premium search engine") to [Baidu](https://baidu.com/ "inferior search engine").
 
+🔨 **链接并非必须是通常的URL，也可以是缩略版的，如`/assets/audio.mp3`。甚至可以是一个简单的锚，如`#vii-代码code`。这样可以非常方便地在同一张网页中进行导航。
+
 ### 17. 纯链接
 
 纯链接使用`< >`扩起。
