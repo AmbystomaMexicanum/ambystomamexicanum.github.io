@@ -8,8 +8,6 @@
 
 ## 预先说明
 
-<br />
-
 ### 技术性说明
 
 <br />
@@ -43,8 +41,6 @@ ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-sy
 <br />
 
 ## I. 标题（headings）
-
-<br />
 
 ### 1. 标题
 
@@ -130,8 +126,6 @@ ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-sy
 
 ## II. 段落（paragraphs）
 
-<br />
-
 ### 3. 段落
 
 <br />
@@ -168,8 +162,6 @@ ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-sy
 
 ## III. 换行（line breaks）
 
-<br />
-
 ### 4. 换行
 
 <br />
@@ -205,8 +197,6 @@ ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-sy
 <br />
 
 ## IV. 强调（emphasis）
-
-<br />
 
 ### 5~7. 粗体（bold）、斜体（italic）和粗斜体
 
@@ -259,8 +249,6 @@ ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-sy
 <br />
 
 ## V. 块引用（blockquotes）
-
-<br />
 
 ### 8. 块引用
 
@@ -359,8 +347,6 @@ Martin Luther King said,
 <br />
 
 ## VI. 列表（lists）
-
-<br />
 
 ### 9. 有序列表（ordered lists）
 
@@ -519,8 +505,6 @@ Martin Luther King said,
 
 ## VII. 代码（code）
 
-<br />
-
 ### 12. inline代码
 
 <br />
@@ -669,8 +653,6 @@ for (int * pi = get_pointer(); pi != nullptr; pi = get_pointer())
 
 ## VIII. 分割线（horizontal rules）
 
-<br />
-
 ### 15. 分割线
 
 <br />
@@ -700,8 +682,6 @@ for (int * pi = get_pointer(); pi != nullptr; pi = get_pointer())
 <br />
 
 ## IX. 链接（links）
-
-<br />
 
 ### 16. 链接
 
@@ -799,8 +779,6 @@ You are currently browsing <https://ambystomamexicanum.github.io/>.
 
 ## X. 图片（images）
 
-<br />
-
 ### 19. 图片
 
 <br />
@@ -843,8 +821,6 @@ You are currently browsing <https://ambystomamexicanum.github.io/>.
 
 ## XI. 转义字符（escaping characters）
 
-<br />
-
 ### 20. 转义字符
 
 <br />
@@ -872,8 +848,6 @@ Markdown中有很多字符有特殊功能，如`*`、`#`等。若希望将它们
 <br />
 
 ## XII. 表格（tables）
-
-<br />
 
 ### 21. 表格
 
