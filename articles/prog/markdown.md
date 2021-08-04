@@ -2,6 +2,8 @@
 
 *初步完成于2021年8月2日16点40分。*
 
+<br />
+
 ## 预先说明
 
 ### 技术说明
@@ -20,11 +22,15 @@
 
 ⚠ 此外，在本文中有一个技术性细节应当引起读者的注意：文章中一切涉及文本形态的描述（如“换行”等），对象有时是Markdown代码，有时是Markdown代码对应的实际显示情况（可理解为“输出”）。二者可能有区别，故一定要严格区分。
 
+<br />
+
 ### 非技术说明
 
 i. 本文的写作意图并非给公众看的教程，而只是笔者写给自己的Markdown知识点归纳。故**可能存在错误**，且**笔者对这些错误不负责**。读者阅读时**请保持谨慎**，本文**仅供参考**。
 
 ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-syntax/)，少数整理自[Markdown扩展语法](https://markdown.com.cn/extended-syntax/)。
+
+<br />
 
 ## I. 标题（headings）
 
@@ -82,6 +88,8 @@ ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-sy
 > `{heading_lvl_2}`
 > --
 
+<br />
+
 ## II. 段落（paragraphs）
 
 ### 3. 段落
@@ -104,6 +112,8 @@ ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-sy
 
 ⚠ **不要用Space/Tab缩进段落。**
 
+<br />
+
 ## III. 换行（line breaks）
 
 ### 4. 换行
@@ -125,6 +135,8 @@ ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-sy
 > `{line 2}`
 
 ℹ **换行和分段是有区别的：被分开的两段文字之间的行距不同，且行距：换行 > 分段。**
+
+<br />
 
 ## IV. 强调（emphasis）
 
@@ -163,6 +175,8 @@ ii. 本文主要整理自[Markdown基本语法](https://markdown.com.cn/basic-sy
 ⚠ **开始处的`*`后面不要有空格。`_`表示法可能会比较tricky，不熟练者建议回避使用。晚点再来整理\[TODO]。**
 
 ⚠ **下划线疑似只能使用HTML代码来表达：`<u>{text_underlined}</u>`。**
+
+<br />
 
 ## V. 块引用（blockquotes）
 
@@ -224,6 +238,8 @@ Martin Luther King said,
 
 ℹ **引用可以带有其他Markdown元素，如强调和列表等。**
 
+<br />
+
 ## VI. 列表（lists）
 
 ### 9. 有序列表（ordered lists）
@@ -279,6 +295,8 @@ Martin Luther King said,
 
 ℹ **使用列表时，不同条目之间将处于不同行，效果相当于换行。不需要在每一行末尾加≥2 Spaces。**
 
+<br />
+
 ### 10. 无序列表（unordered lists）
 
 与有序列表相似，但更简单，将`{num}.`更换为`-`、`*`或`+`即可。
@@ -332,6 +350,8 @@ Martin Luther King said,
 ⚠ **如果要插入代码块，则需要8 Spaces / 2 Tabs的缩进，因为代码块本身具有4 Spaces / 1 Tab的固有缩进。**
 
 ⚠ **空行不会破坏列表的连续性，即有序列表的序号不受影响。（GitHub测试结果）**
+
+<br />
 
 ## VII. 代码（code）
 
@@ -430,6 +450,8 @@ for (int * pi = get_pointer(); pi != nullptr; pi = get_pointer())
 	cout << *pi << endl;
 ```
 
+<br />
+
 ℹ **关于编程语言代号（GitHub测试）：C++：`c++`或`cpp`；C#：`c#`、`csharp`或`cs`。大小写不限。**
 
 ## VIII. 分割线（horizontal rules）
@@ -449,6 +471,8 @@ for (int * pi = get_pointer(); pi != nullptr; pi = get_pointer())
 其中`*`/`-`/`_`字符的数量应至少为3（且只能使用一种）。
 
 ⚠ **分割线前后应当有至少1个空行（否则可能会被解析为标题）。**
+
+<br />
 
 ## IX. 链接（links）
 
@@ -476,6 +500,8 @@ I prefer [Bing](https://bing.com/ "premium search engine") to [Baidu](https://ba
 I prefer [Bing](https://bing.com/ "premium search engine") to [Baidu](https://baidu.com/ "inferior search engine").
 
 🔨 **链接并非必须是通常的URL，也可以是缩略版的，如`/assets/audio.mp3`。甚至可以是一个简单的锚，如`#vii-代码code`。这样可以非常方便地在同一张网页中进行导航。**
+
+<br />
 
 ### 17. 纯链接
 
@@ -505,6 +531,8 @@ You are currently browsing <https://ambystomamexicanum.github.io/>.
 
 *略，暂且不想写，反正还用不上*
 
+<br />
+
 ## X. 图片（images）
 
 ### 19. 图片
@@ -533,6 +561,8 @@ You are currently browsing <https://ambystomamexicanum.github.io/>.
 
 ## XI. 转义字符（escaping characters）
 
+<br />
+
 ### 20. 转义字符
 
 Markdown中有很多字符有特殊功能，如`*`、`#`等。若希望将它们作为普通字符显示，而免除它们的特殊功能，在它们前面加上一个\\即可。
@@ -546,6 +576,8 @@ Markdown中有很多字符有特殊功能，如`*`、`#`等。若希望将它们
 正常写就好了。
 
 ⚠ **在代码块中，HTML代码无法发挥它们的作用**。
+
+<br />
 
 ## XII. 表格（tables）
 
