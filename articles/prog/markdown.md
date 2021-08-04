@@ -474,7 +474,7 @@ You are currently browsing <https://ambystomamexicanum.github.io/>.
 
 You are currently browsing <https://ambystomamexicanum.github.io/>.
 
-ℹ **许多时候，即便没有`< >`，具有链接形式的文字也将会自动以超链接形式显示。**
+ℹ **许多时候，即便没有`< >`，具有链接形式的文字也将会自动以超链接形式显示（Markdown扩展功能）。**
 
 🔨 **链接可以带格式，如`{hypertext}`可以是代码形式。**
 
@@ -514,8 +514,9 @@ You are currently browsing <https://ambystomamexicanum.github.io/>.
 
 Markdown中有很多字符有特殊功能，如`*`、`#`等。若希望将它们作为普通字符显示，而免除它们的特殊功能，在它们前面加上一个\\即可。
 
-⚠ **代码格式的文字中若出现这样的符号，直接写即可，不要用\\进行转义！（若仍然加\\，会导致出现额外的\\！）**
-⚠ **如要在代码块中出现` `` `字符，具体方法参见[VII. 代码（code）](#vii-代码code)。
+⚠ **代码格式的文字中若出现这样的符号，直接写即可，不要用\\进行转义！（若仍然加\\，会导致出现额外的\\ ！）**
+
+⚠ **如要在代码块中出现`` ` ``字符，具体方法参见[VII. 代码（code）](#vii-代码code)。**
 
 ## XII. 内嵌HTML代码
 
