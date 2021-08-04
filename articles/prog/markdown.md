@@ -1104,6 +1104,8 @@ Markdown语言支持在其内部（即`.md`文件内部）直接使用HTML代码
 
 ### 28. 表情符号简码（emoji shortcodes）
 
+<br />
+
 表情符号简码的形式为`:{shortcode}:`。如`:tent:`即表示:tent:，`:joy:`即表示:joy:。
 
 <br />
