@@ -795,9 +795,9 @@ You are currently browsing <https://ambystomamexicanum.github.io/>.
 
 其中：
 
-- {image_alt}为图片无法显示时，显示在图片原先应当显示的位置处的文字（alternative text）。
-- {image_link}为图片的链接。
-- {image_title}为鼠标悬浮在图片上时出现的一个小标签上的文字内容，**可缺省**。
+- `{image_alt}`为图片无法显示时，显示在图片原先应当显示的位置处的文字（alternative text）。
+- `{image_link}`为图片的链接。
+- `{image_title}`为鼠标悬浮在图片上时出现的一个小标签上的文字内容，**可缺省**。
 
 <br />
 
@@ -833,7 +833,7 @@ Markdown中有很多字符有特殊功能，如`*`、`#`等。若希望将它们
 
 ⚠ **如要在代码块中出现`` ` ``字符，具体方法参见[VII. 代码（code）](#vii-代码code)。**
 
-ℹ **欲显示某些字符，可以进行转义，也可以不进行转义（如`]`）**
+ℹ **欲显示某些字符，可以进行转义，也可以不进行转义（如`]`）。**
 
 <br />
 
