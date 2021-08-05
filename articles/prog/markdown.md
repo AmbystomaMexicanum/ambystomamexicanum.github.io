@@ -1130,4 +1130,8 @@ Markdown语言支持在其内部（即`.md`文件内部）直接使用HTML代码
 
 我想说，即便你真的这么认为，也没有什么可怕的。以上内容，之所以这么多，只是尽可能地覆盖全部的功能和情形——作为一份Markdown讲解，这是必要的。然而，实际上（一次）会使用到的Markdown知识，可能只是以上内容的一小部分。而且，可以不去阅读这么多内容（静态，类似于C），而是在使用的过程中逐渐发现新问题，再去查找解决方案（动态，类似于Python）。
 
-最后的最后——在告别Markdown学习之际，我还是要提一句——**Markdown虽然语法简单而功能强大，但其功能还是有限的，有的时候Markdown无能为力。** **故，在必要时，请使用HTML**（可直接在Markdown代码中使用HTML；见[XII. 内嵌HTML代码](#xii-内嵌html代码)）。
+最后的最后——在告别Markdown学习之际，我还是要提一句——**Markdown虽然语法简单而功能强大，但它不是万能的，有的时候Markdown无能为力。** **故，在必要时，请使用HTML**（可直接在Markdown代码中使用HTML；见[XII. 内嵌HTML代码](#xii-内嵌html代码)）。
+
+其他资料：
+
+[Markdown nesting feasibility table](markdown-nesting-table.md)
