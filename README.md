@@ -6,9 +6,9 @@ The page that you are currently reading is the main page.
 
 Index:
 
-- [Articles](/articles/ "/articles/")
-	- [Programming](/articles/prog/ "/articles/prog/")
-		- [Markdown syntax conclusion](/articles/prog/markdown "/articles/prog/markdown") (`zh-CN`, Aug 2, 21)
-		- [Markdown nesting feasibility table](/articles/prog/markdown-nesting-table) (`zh-CN`, Aug. 3, 21)
-	- [Linguistics](/articles/ling/ "/articles/ling/")
-		- [X-SAMPA commonly-used symbols conclusion](/articles/ling/xsampa "/articles/ling/xsampa") (`zh-CN`, Aug 2, 21)
+- [Articles](articles/ "articles/")
+	- [Programming](articles/prog/ "articles/prog/")
+		- [Markdown syntax conclusion](articles/prog/markdown.md "articles/prog/markdown") (`zh-CN`, Aug 2, 21)
+		- [Markdown nesting feasibility table](articles/prog/markdown-nesting-table.md "articles/prog/markdown-nesting-feasibility") (`zh-CN`, Aug. 3, 21)
+	- [Linguistics](articles/ling/)
+		- [X-SAMPA commonly-used symbols conclusion](articles/ling/xsampa.md "articles/ling/xsampa.md") (`zh-CN`, Aug 2, 21)
